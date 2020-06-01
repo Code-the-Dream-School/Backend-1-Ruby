@@ -9,12 +9,14 @@ Week 3:
 
 Here is the first part of the program:
 
+```Ruby
 puts "Enter a number of years"
 years = gets.chomp # this returns a string
 years = years.to_i # this converts a string to an integer
 hours = years * 365 * 24
 puts "That's #{hours} hours."
 # Write your code here for the other parts.
+```
 
 (2) Write a program which asks for a person's first name, then middle, then last.  It should store each of these parts in an array. Finally, it should greet the person using their full name.  Call the program full_name.rb.
 
